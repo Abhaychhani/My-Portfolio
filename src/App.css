@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+[data-theme="light"]{
+  --bg:#eee;
+  --text:#222;
+  --text-light:#555;
+  --shadow-clr:#222;
+}
+[data-theme="dark"]{
+  --bg:#000329;
+  --text:#f8f8f8;
+  --text-light:#d5d5d5;
+  --shadow-clr:#aaa;
+}
+:root{
+  --font-face:"Roboto", sans-serif;
+  --font-face2:"Noto Color Emoji", sans-serif;
+}
+.container{
+  padding: 0 7rem;
+  min-height:calc(100vh - 4rem);
+  background:var(--bg);
+  color: var(--text);
+}

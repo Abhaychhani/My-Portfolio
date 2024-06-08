@@ -1,0 +1,98 @@
+.footer {
+  width: 100%;
+  min-height: 30vh;
+  background: rgb(0, 0, 83);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  font-family: var(--font-face);
+}
+.sub-footer {
+  list-style: none;
+}
+.sub-footer.about-footer {
+  max-width: 28rem;
+}
+.sub-footer.about-footer span {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  color: #eee;
+}
+.sub-footer.about-footer p {
+  letter-spacing: 0.6px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.sub-footer.category-footer {
+  min-width: 18rem;
+  padding-left: 5rem;
+}
+.sub-footer.category-footer li{
+  text-transform: capitalize;
+  font-size: 0.97rem;
+  padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+.sub-footer.category-footer li ion-icon{
+  padding: 0.2rem;
+  background: #222;
+  margin-right: 0.4rem;
+  font-size: 1.5rem;
+}
+.sub-footer.category-footer li:hover:not(li.heading-list){
+  cursor: pointer;
+  color: #aaaaff;
+}
+.sub-footer.category-footer li.heading-list,
+.sub-footer.contact-footer span,
+.sub-footer.about-footer li 
+{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.sub-footer.contact-footer {
+  width: 20rem;
+}
+.sub-footer.contact-footer .mail-box {
+  margin-top: 1.3rem;
+}
+.sub-footer.contact-footer .mail-box input {
+  width: 70%;
+  padding: 0.3rem;
+  margin-right: 1%;
+  font-size: 1.05rem;
+  color: mediumslateblue;
+}
+.sub-footer.contact-footer .mail-box button {
+    cursor: pointer;
+  padding: 0.4rem 0;
+  width: 29%;
+  background: mediumslateblue;
+  color: white;
+  font-size: 0.92rem;
+  font-family: var(--font-face);
+  letter-spacing: 1px;
+  border-color: mediumslateblue;
+}
+.sub-footer.contact-footer .social-media-icons{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.sub-footer.contact-footer .social-media-icons ion-icon{
+  font-size: 1.7rem;
+  cursor: pointer;
+  color:mediumslateblue;
+  transition: all 0.3s;
+  background-color:white;
+  padding: 0.3rem;
+}
+.sub-footer.contact-footer .social-media-icons ion-icon:hover{
+  color: rgb(0, 0, 83);
+  transform: scale(1.2);
+}
